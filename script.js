@@ -1,14 +1,12 @@
 var ans, correct, points = 0;
 var poin = document.getElementById('points')
-sessionStorage.setItem("poin", 0)
 
 function addPoints(){
-    sessionStorage.poin = Number(sessionStorage.poin) + 1;
+    points++
 }
 
 function updatePoints(){
-    poin.innerText = "Points: " + sessionStorage.poin
-    console.log(sessionStorage)
+    poin.innerText = "Points: " + points
 }
 
 function rand(x){
