@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logarithm Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="generate()">
+    <div class="box">
+        <div class="title">Quiz</div>
+        <br>
+        <div id="points">Points: 0</div>
+        <br><br>
+
+        <div id="question">Question</div>
+        <br>
+
+        <form>
+            <div class="options">
+                <input type="radio" name="option" value="1">
+                <label for="option" id="label1">Option 1</label>
+            </div>
+
+            <div class="options">
+                <input type="radio" name="option" value="2">
+                <label for="option" id="label2">Option 2</label>
+            </div>
+
+
+            <div class="options">
+                <input type="radio" name="option" value="3">
+                <label for="option" id="label3">Option 3</label>
+            </div>
+
+
+            <div class="options">
+                <input type="radio" name="option" value="4">
+                <label for="option" id="label4">Option 4</label>
+            </div>
+
+            <br>
+            <button type="submit" onclick="checkAns(event)">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

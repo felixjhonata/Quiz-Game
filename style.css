@@ -1,0 +1,44 @@
+html{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.box{
+    background-color: #d9d9d9;
+    height: 100vh;
+    border-radius: 50px;
+    margin: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .title{
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.box form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.box #question{
+    font-size: 20px;
+}
+
+.box .options{
+    margin: 4px;
+}
+
+.box button{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
