@@ -49,6 +49,13 @@ function generate(){
             var falseans;
             do{
                 falseans = ans + Math.floor(Math.random() * 20) - 10
+
+                for(let j = 0; j < i; j++){
+                    while(falseans == Number(option[j].innerText)){
+                        falseans = ans + Math.floor(Math.random() * 20) - 10
+                        j = 0
+                    }
+                }
             }while(falseans == ans)
             
             option[i].innerText = falseans
